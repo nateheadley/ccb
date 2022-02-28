@@ -1,0 +1,166 @@
+/* Helper Styles: Do not Delete */
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+	background-image: url("beans.jpg");
+}
+
+/* Put your CSS Styles Below this Line */
+
+
+
+h2 { 
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+
+
+
+}
+
+h3 { 
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+h4 { 
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+
+	header{
+		background-color: #362417;
+
+	}
+
+	nav ul{
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-evenly;
+		list-style: none;
+		text-align: center;
+		margin:  0;
+		padding:  0;
+	}
+
+	nav li{
+		margin: 0 15px 0 15px;
+		width: 15%;
+		padding: 35px;
+		background-color: #172815;
+		border:  1px solid #Fcecc9;
+		border-radius: 3px;
+	}
+
+	nav li.logo {
+		background-color:  transparent;
+		border:  none;
+		margin:  0 15px 0 0;
+		padding:  0;
+	}
+	nav li.logo img {
+		max-width:  250px;
+	}
+
+	nav li a {
+		color:  #Fcecc9;
+		text-decoration: none;
+	}
+	.specials{
+		color: #fcecc9;
+		text-decoration-style: none;
+		font-size: 18px;
+		background-color: #362417;
+		width: 50%;
+
+	}
+	.specials ul {
+		list-style: none;
+	}
+	.about-row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.about-row img {
+		width: 35%;
+	}
+	.about{
+		color: #fcecc9;
+		text-decoration-style: none;
+		font-size: 18px;
+		background-color: #172815;
+		width: 50%;
+
+		
+
+	}
+	.about ul{
+		list-style: none;
+	}
+
+	footer {
+		background-color: #362417;
+		color: #fcecc9;
+		padding: 50px 5%;
+		font-size: 48px;
+		margin-top: 50px;
+		
+	}
+
+	footer li {
+		list-style-type: none;
+	}
+
+	.menu {
+		display: flex;
+	}
+	
+	.drinks{
+		background-color: #362417;
+		color: #fcecc9;
+		text-decoration-style: none;
+		font-size: 38px;
+		width: 50%;
+		border: solid;
+	}
+    .drinks img{
+    	object-fit: cover;
+		width: 250px;
+		height: 250px;
+    } 
+	.bites{
+
+		color: #fcecc9;
+		text-decoration-style: none;
+		font-size: 38px;
+		background-color: #172815;
+		width: 50%;
+		border: solid;
+	}
+	.bites img{
+		object-fit: cover;
+		width: 250px;
+		height: 250px;
+		padding: ;
+	}
+
+	.menu-item {
+		display: flex;
+		margin-bottom: 20px;
+	}
+
+.hpage{
+	text-align: center;
+	justify-content: center;
+	color: #fcecc9;
+
+}
+
+
+
+	
+
+
+
